@@ -1,9 +1,9 @@
 # Challenge: Pancreatic Cancer Analysis
 
 ## Overview
-This is a coding challenge is designed to test your ability to analyze and data from a real-world pancreatic cancer dataset based on the real-world domain we deal with at Radical Health. The dataset contains longitudinal clinical, genomic, and treatment data for all cancer patients. 
+This is a coding challenge designed to test your ability to analyze data from a real-world pancreatic cancer dataset based on the real-world domain we deal with at Radical Health. The dataset contains longitudinal clinical, genomic, and treatment data for all cancer patients. 
 
-You may do this at your own pace at home. The time you should spend on this task is 2 hours. The scope of the challenge is designed to take much more than 2 hours and it is normal to not have finished your task by the end of the time limit. We will schedule a call with Gediminas where we explore up to where you stopped and your thought processes!
+You may do this at your own pace at home. The time you should spend on this task is 3 hours. The scope of the challenge is designed to take much more than 3 hours and it is normal to not have finished your task by the end of the time limit. We will schedule a call with Gediminas where we explore up to where you stopped and your thought processes!
 
 There are two first-line chemotherapy treatment options for metastatic pancreatic cancer. Clinicians believe their efficacy is equivalent, but we believe there is an optimal treatment for an individual (note: the dataset size might not be sufficient to show this). Your overarching task is to develop model(s) to compare differential overall survival or other treatment effectiveness metrics for patients on the two main chemotherapy treatments for stage IV pancreatic cancer. They are (1) Folfirinox and (2) Gemcitabine + Nab-Paclitaxel. Also, if possible, identify the most important features that would predict OS or treatment effectiveness 
 
