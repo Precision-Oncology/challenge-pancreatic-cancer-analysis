@@ -10,6 +10,12 @@ There are two first-line chemotherapy treatment options for metastatic pancreati
 ## Instructions
 Your specific instructions are as follows:
 1. Download the dataset from [here](https://cbioportal-datahub.s3.amazonaws.com/msk_chord_2024.tar.gz). This dataset is ~360Mb was published alongside this [paper](https://www.nature.com/articles/s41586-024-08167-5) from MSK. We do not recommend you spend time looking at the paper itself as it will not be of much help for the task.
+
+
+> Hints: demographic data can be found in `data_clinical_patient.txt` and each patient is identified with an ID in *PATIENT_ID* column.
+> Genetic mutation data can be found in `data_mutations.txt` - a patient can then be identified with through *Tumor_Sample_Barcode* column.
+> There is a lot of hidden data in files with the format `data_timeline_*.txt` - for instance, `data_timeline_treatment.csv` lists all cancer treatments given to patients.
+
 2. This dataset contains 24,950 cancer patients, of which only 3,109 are pancreatic cancer patients. Only ~1330 patients are Stage IV pancreatic cancer patients and should be included in your main analysis. You may include any other patients in your side-analysis if you choose.
 3. Write scripts to achieve your overarching task. (You may use any programming language & any open source libraries you want.)
 4. Document all of your work, including exploratory data analyses and thought processes.
